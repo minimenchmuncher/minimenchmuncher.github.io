@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            ezRa
+tagline:          'A Blog'
+description:      'A blog about data science and analysis'
+url:              http://minimenchmuncher.github.io
+baseurl:          /
+
+author:
+  name:           'Ezra Tucker'
+  url:            linkedin.com/in/ezztucker
+
+paginate:         5
+
+# Custom vars
+version:          0.1
+
+github:
+  repo:           https://github.com/minimenchmuncher/minimenchmuncher.github.io
+
+gems:
+      - jekyll-gist
+      - jekyll-paginate
