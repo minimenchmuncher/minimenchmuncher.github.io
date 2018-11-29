@@ -1,4 +1,3 @@
-
 ---
 title: Time Zones
 date: 2017-10-12T22:00:00Z
