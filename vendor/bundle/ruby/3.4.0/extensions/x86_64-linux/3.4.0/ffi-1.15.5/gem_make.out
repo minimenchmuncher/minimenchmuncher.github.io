@@ -1,0 +1,1422 @@
+current directory: /home/ezra/minimenchmuncher.github.io/vendor/bundle/ruby/3.4.0/gems/ffi-1.15.5/ext/ffi_c
+/home/ezra/.rbenv/versions/3.4.2/bin/ruby extconf.rb
+checking for pkg-config for libffi... [" ", "-L/usr/lib64/../lib64", "-lffi"]
+checking for ffi_prep_closure_loc() in -lffi... yes
+checking for ffi_prep_cif_var()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for whether -pthread is accepted as LDFLAGS... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/ezra/minimenchmuncher.github.io/vendor/bundle/ruby/3.4.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20250401-90513-3fwwkr sitelibdir\=./.gem.20250401-90513-3fwwkr clean
+
+current directory: /home/ezra/minimenchmuncher.github.io/vendor/bundle/ruby/3.4.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20250401-90513-3fwwkr sitelibdir\=./.gem.20250401-90513-3fwwkr
+compiling AbstractMemory.c
+AbstractMemory.c: In function ‘memory_put_int8’:
+AbstractMemory.c:250:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  250 | NUM_OP(int8, int8_t, NUM2INT, INT2NUM, NOSWAP);
+      | ^~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from AbstractMemory.c:40:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_int8’:
+AbstractMemory.c:250:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  250 | NUM_OP(int8, int8_t, NUM2INT, INT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_int8’:
+AbstractMemory.c:250:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  250 | NUM_OP(int8, int8_t, NUM2INT, INT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_int8’:
+AbstractMemory.c:250:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  250 | NUM_OP(int8, int8_t, NUM2INT, INT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_uint8’:
+AbstractMemory.c:251:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  251 | NUM_OP(uint8, uint8_t, NUM2UINT, UINT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_uint8’:
+AbstractMemory.c:251:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  251 | NUM_OP(uint8, uint8_t, NUM2UINT, UINT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_uint8’:
+AbstractMemory.c:251:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  251 | NUM_OP(uint8, uint8_t, NUM2UINT, UINT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_uint8’:
+AbstractMemory.c:251:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  251 | NUM_OP(uint8, uint8_t, NUM2UINT, UINT2NUM, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_int16’:
+AbstractMemory.c:252:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  252 | NUM_OP(int16, int16_t, NUM2INT, INT2NUM, SWAPS16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_int16’:
+AbstractMemory.c:252:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  252 | NUM_OP(int16, int16_t, NUM2INT, INT2NUM, SWAPS16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_int16’:
+AbstractMemory.c:252:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  252 | NUM_OP(int16, int16_t, NUM2INT, INT2NUM, SWAPS16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_int16’:
+AbstractMemory.c:252:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  252 | NUM_OP(int16, int16_t, NUM2INT, INT2NUM, SWAPS16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_uint16’:
+AbstractMemory.c:253:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  253 | NUM_OP(uint16, uint16_t, NUM2UINT, UINT2NUM, SWAPU16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_uint16’:
+AbstractMemory.c:253:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  253 | NUM_OP(uint16, uint16_t, NUM2UINT, UINT2NUM, SWAPU16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_uint16’:
+AbstractMemory.c:253:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  253 | NUM_OP(uint16, uint16_t, NUM2UINT, UINT2NUM, SWAPU16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_uint16’:
+AbstractMemory.c:253:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  253 | NUM_OP(uint16, uint16_t, NUM2UINT, UINT2NUM, SWAPU16);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_int32’:
+AbstractMemory.c:254:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  254 | NUM_OP(int32, int32_t, NUM2INT, INT2NUM, SWAPS32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_int32’:
+AbstractMemory.c:254:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  254 | NUM_OP(int32, int32_t, NUM2INT, INT2NUM, SWAPS32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_int32’:
+AbstractMemory.c:254:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  254 | NUM_OP(int32, int32_t, NUM2INT, INT2NUM, SWAPS32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_int32’:
+AbstractMemory.c:254:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  254 | NUM_OP(int32, int32_t, NUM2INT, INT2NUM, SWAPS32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_uint32’:
+AbstractMemory.c:255:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  255 | NUM_OP(uint32, uint32_t, NUM2UINT, UINT2NUM, SWAPU32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_uint32’:
+AbstractMemory.c:255:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  255 | NUM_OP(uint32, uint32_t, NUM2UINT, UINT2NUM, SWAPU32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_uint32’:
+AbstractMemory.c:255:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  255 | NUM_OP(uint32, uint32_t, NUM2UINT, UINT2NUM, SWAPU32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_uint32’:
+AbstractMemory.c:255:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  255 | NUM_OP(uint32, uint32_t, NUM2UINT, UINT2NUM, SWAPU32);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_int64’:
+AbstractMemory.c:256:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  256 | NUM_OP(int64, int64_t, NUM2LL, LL2NUM, SWAPS64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_int64’:
+AbstractMemory.c:256:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  256 | NUM_OP(int64, int64_t, NUM2LL, LL2NUM, SWAPS64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_int64’:
+AbstractMemory.c:256:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  256 | NUM_OP(int64, int64_t, NUM2LL, LL2NUM, SWAPS64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_int64’:
+AbstractMemory.c:256:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  256 | NUM_OP(int64, int64_t, NUM2LL, LL2NUM, SWAPS64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_uint64’:
+AbstractMemory.c:257:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  257 | NUM_OP(uint64, uint64_t, NUM2ULL, ULL2NUM, SWAPU64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_uint64’:
+AbstractMemory.c:257:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  257 | NUM_OP(uint64, uint64_t, NUM2ULL, ULL2NUM, SWAPU64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_uint64’:
+AbstractMemory.c:257:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  257 | NUM_OP(uint64, uint64_t, NUM2ULL, ULL2NUM, SWAPU64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_uint64’:
+AbstractMemory.c:257:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  257 | NUM_OP(uint64, uint64_t, NUM2ULL, ULL2NUM, SWAPU64);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_long’:
+AbstractMemory.c:258:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  258 | NUM_OP(long, long, NUM2LONG, LONG2NUM, SWAPSLONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_long’:
+AbstractMemory.c:258:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  258 | NUM_OP(long, long, NUM2LONG, LONG2NUM, SWAPSLONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_long’:
+AbstractMemory.c:258:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  258 | NUM_OP(long, long, NUM2LONG, LONG2NUM, SWAPSLONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_long’:
+AbstractMemory.c:258:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  258 | NUM_OP(long, long, NUM2LONG, LONG2NUM, SWAPSLONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_ulong’:
+AbstractMemory.c:259:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  259 | NUM_OP(ulong, unsigned long, NUM2ULONG, ULONG2NUM, SWAPULONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_ulong’:
+AbstractMemory.c:259:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  259 | NUM_OP(ulong, unsigned long, NUM2ULONG, ULONG2NUM, SWAPULONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_ulong’:
+AbstractMemory.c:259:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  259 | NUM_OP(ulong, unsigned long, NUM2ULONG, ULONG2NUM, SWAPULONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_ulong’:
+AbstractMemory.c:259:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  259 | NUM_OP(ulong, unsigned long, NUM2ULONG, ULONG2NUM, SWAPULONG);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_float32’:
+AbstractMemory.c:260:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  260 | NUM_OP(float32, float, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_float32’:
+AbstractMemory.c:260:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  260 | NUM_OP(float32, float, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_float32’:
+AbstractMemory.c:260:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  260 | NUM_OP(float32, float, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_float32’:
+AbstractMemory.c:260:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  260 | NUM_OP(float32, float, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_float64’:
+AbstractMemory.c:261:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  261 | NUM_OP(float64, double, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_float64’:
+AbstractMemory.c:261:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  261 | NUM_OP(float64, double, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_float64’:
+AbstractMemory.c:261:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  261 | NUM_OP(float64, double, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_float64’:
+AbstractMemory.c:261:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  261 | NUM_OP(float64, double, NUM2DBL, rb_float_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_longdouble’:
+AbstractMemory.c:262:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  262 | NUM_OP(longdouble, long double, rbffi_num2longdouble, rbffi_longdouble_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_longdouble’:
+AbstractMemory.c:262:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  262 | NUM_OP(longdouble, long double, rbffi_num2longdouble, rbffi_longdouble_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_longdouble’:
+AbstractMemory.c:262:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  262 | NUM_OP(longdouble, long double, rbffi_num2longdouble, rbffi_longdouble_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_longdouble’:
+AbstractMemory.c:262:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  262 | NUM_OP(longdouble, long double, rbffi_num2longdouble, rbffi_longdouble_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_pointer’:
+AbstractMemory.c:284:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  284 | NUM_OP(pointer, void *, get_pointer_value, rbffi_Pointer_NewInstance, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_pointer’:
+AbstractMemory.c:284:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  284 | NUM_OP(pointer, void *, get_pointer_value, rbffi_Pointer_NewInstance, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_pointer’:
+AbstractMemory.c:284:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  284 | NUM_OP(pointer, void *, get_pointer_value, rbffi_Pointer_NewInstance, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_pointer’:
+AbstractMemory.c:284:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  284 | NUM_OP(pointer, void *, get_pointer_value, rbffi_Pointer_NewInstance, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put_bool’:
+AbstractMemory.c:298:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  298 | NUM_OP(bool, unsigned char, rbffi_bool_value, rbffi_bool_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_write_bool’:
+AbstractMemory.c:298:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  298 | NUM_OP(bool, unsigned char, rbffi_bool_value, rbffi_bool_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_bool’:
+AbstractMemory.c:298:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  298 | NUM_OP(bool, unsigned char, rbffi_bool_value, rbffi_bool_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_read_bool’:
+AbstractMemory.c:298:1: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  298 | NUM_OP(bool, unsigned char, rbffi_bool_value, rbffi_bool_new, NOSWAP);
+      | ^~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_size’:
+AbstractMemory.c:324:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  324 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get’:
+AbstractMemory.c:347:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  347 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c:348:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  348 |     Data_Get_Struct(nType, Type, type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_put’:
+AbstractMemory.c:379:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  379 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c:380:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  380 |     Data_Get_Struct(nType, Type, type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_get_array_of_string’:
+AbstractMemory.c:445:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  445 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_type_size’:
+AbstractMemory.c:636:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  636 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_aref’:
+AbstractMemory.c:654:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  654 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘memory_copy_from’:
+AbstractMemory.c:672:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  672 |     Data_Get_Struct(self, AbstractMemory, dst);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function ‘rbffi_AbstractMemory_Cast’:
+AbstractMemory.c:684:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  684 |         Data_Get_Struct(obj, AbstractMemory, memory);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling ArrayType.c
+ArrayType.c: In function ‘array_type_initialize’:
+ArrayType.c:87:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   87 |     Data_Get_Struct(self, ArrayType, array);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from ArrayType.c:30:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+ArrayType.c:91:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   91 |     Data_Get_Struct(rbComponentType, Type, array->componentType);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+ArrayType.c: In function ‘array_type_length’:
+ArrayType.c:115:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  115 |     Data_Get_Struct(self, ArrayType, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+ArrayType.c: In function ‘array_type_element_type’:
+ArrayType.c:130:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  130 |     Data_Get_Struct(self, ArrayType, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Buffer.c
+Buffer.c: In function ‘buffer_initialize’:
+Buffer.c:98:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   98 |     Data_Get_Struct(self, Buffer, p);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Buffer.c:34:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c: In function ‘buffer_initialize_copy’:
+Buffer.c:141:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  141 |     Data_Get_Struct(self, Buffer, dst);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c: In function ‘slice’:
+Buffer.c:175:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  175 |     Data_Get_Struct(self, Buffer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c: In function ‘buffer_plus’:
+Buffer.c:200:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  200 |     Data_Get_Struct(self, Buffer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c: In function ‘buffer_inspect’:
+Buffer.c:229:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  229 |     Data_Get_Struct(self, Buffer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c: In function ‘buffer_order’:
+Buffer.c:258:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  258 |     Data_Get_Struct(self, Buffer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c:282:13: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  282 |             Data_Get_Struct(retval, Buffer, p2);
+      |             ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Buffer.c: In function ‘buffer_free’:
+Buffer.c:297:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  297 |     Data_Get_Struct(self, Buffer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Call.c
+Call.c: In function ‘callback_param’:
+Call.c:469:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  469 |         Data_Get_Struct(proc, AbstractMemory, ptr);
+      |         ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Call.c:40:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+DynamicLibrary.c: In function ‘library_initialize’:
+DynamicLibrary.c:116:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  116 |     Data_Get_Struct(self, Library, library);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from DynamicLibrary.c:41:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+DynamicLibrary.c: In function ‘library_dlsym’:
+DynamicLibrary.c:147:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  147 |     Data_Get_Struct(self, Library, library);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+DynamicLibrary.c: In function ‘symbol_inspect’:
+DynamicLibrary.c:257:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  257 |     Data_Get_Struct(self, LibrarySymbol, sym);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Function.c
+Function.c: In function ‘rbffi_Function_ForProc’:
+Function.c:257:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  257 |         Data_Get_Struct(cbref, Function, fp);
+      |         ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Function.c:42:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c: In function ‘function_init’:
+Function.c:301:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  301 |     Data_Get_Struct(self, Function, fn);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c:305:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  305 |     Data_Get_Struct(fn->rbFunctionInfo, FunctionType, fn->info);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c:309:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  309 |         Data_Get_Struct(rbProc, Pointer, orig);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c: In function ‘function_call’:
+Function.c:363:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  363 |     Data_Get_Struct(self, Function, fn);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c: In function ‘function_attach’:
+Function.c:381:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  381 |     Data_Get_Struct(self, Function, fn);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c: In function ‘function_set_autorelease’:
+Function.c:424:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  424 |     Data_Get_Struct(self, Function, fn);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c: In function ‘function_autorelease_p’:
+Function.c:436:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  436 |     Data_Get_Struct(self, Function, fn);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Function.c: In function ‘function_release’:
+Function.c:451:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  451 |     Data_Get_Struct(self, Function, fn);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling FunctionInfo.c
+FunctionInfo.c: In function ‘fntype_initialize’:
+FunctionInfo.c:132:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  132 |     Data_Get_Struct(self, FunctionType, fnInfo);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from FunctionInfo.c:40:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+FunctionInfo.c:161:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  161 |         Data_Get_Struct(type, Type, fnInfo->parameterTypes[i]);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+FunctionInfo.c:176:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  176 |     Data_Get_Struct(fnInfo->rbReturnType, Type, fnInfo->returnType);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+FunctionInfo.c: In function ‘fntype_result_type’:
+FunctionInfo.c:215:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  215 |     Data_Get_Struct(self, FunctionType, ft);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+FunctionInfo.c: In function ‘fntype_param_types’:
+FunctionInfo.c:230:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  230 |     Data_Get_Struct(self, FunctionType, ft);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+MappedType.c: In function ‘mapped_initialize’:
+MappedType.c:85:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   85 |     Data_Get_Struct(self, MappedType, m);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from MappedType.c:30:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+MappedType.c:92:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   92 |     Data_Get_Struct(m->rbType, Type, m->type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+MappedType.c: In function ‘mapped_native_type’:
+MappedType.c:114:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  114 |     Data_Get_Struct(self, MappedType, m);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+MappedType.c: In function ‘mapped_to_native’:
+MappedType.c:128:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  128 |     Data_Get_Struct(self, MappedType, m);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+MappedType.c: In function ‘mapped_from_native’:
+MappedType.c:142:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  142 |     Data_Get_Struct(self, MappedType, m);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling MemoryPointer.c
+MemoryPointer.c: In function ‘memptr_malloc’:
+MemoryPointer.c:97:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   97 |     Data_Get_Struct(self, Pointer, p);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from MemoryPointer.c:34:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+MemoryPointer.c: In function ‘memptr_free’:
+MemoryPointer.c:125:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  125 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+Pointer.c: In function ‘ptr_initialize’:
+Pointer.c:98:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   98 |     Data_Get_Struct(self, Pointer, p);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Pointer.c:33:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c:127:17: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  127 |                 Data_Get_Struct(rbAddress, Pointer, orig);
+      |                 ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_initialize_copy’:
+Pointer.c:156:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  156 |     Data_Get_Struct(self, Pointer, dst);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘slice’:
+Pointer.c:198:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  198 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_plus’:
+Pointer.c:225:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  225 |     Data_Get_Struct(self, AbstractMemory, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_inspect’:
+Pointer.c:255:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  255 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_null_p’:
+Pointer.c:278:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  278 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_equals’:
+Pointer.c:294:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  294 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_address’:
+Pointer.c:313:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  313 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_order’:
+Pointer.c:338:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  338 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c:364:13: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  364 |             Data_Get_Struct(retval, Pointer, p2);
+      |             ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_free’:
+Pointer.c:384:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  384 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_type_size’:
+Pointer.c:407:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  407 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_autorelease’:
+Pointer.c:423:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  423 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Pointer.c: In function ‘ptr_autorelease_p’:
+Pointer.c:439:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  439 |     Data_Get_Struct(self, Pointer, ptr);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Struct.c
+Struct.c: In function ‘struct_initialize’:
+Struct.c:111:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  111 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Struct.c:37:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:126:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  126 |     Data_Get_Struct(s->rbLayout, StructLayout, s->layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_initialize_copy’:
+Struct.c:149:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  149 |     Data_Get_Struct(self, Struct, dst);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:150:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  150 |     Data_Get_Struct(other, Struct, src);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_layout’:
+Struct.c:206:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  206 |         Data_Get_Struct(s->rbLayout, StructLayout, s->layout);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_validate’:
+Struct.c:216:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  216 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_set_pointer’:
+Struct.c:386:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  386 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:387:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  387 |     Data_Get_Struct(pointer, AbstractMemory, memory);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_get_pointer’:
+Struct.c:412:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  412 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_set_layout’:
+Struct.c:427:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  427 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:435:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  435 |     Data_Get_Struct(layout, StructLayout, s->layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_get_layout’:
+Struct.c:451:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  451 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_null_p’:
+Struct.c:466:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  466 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘struct_order’:
+Struct.c:479:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  479 |     Data_Get_Struct(self, Struct, s);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_initialize’:
+Struct.c:524:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  524 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:528:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  528 |     Data_Get_Struct(rbMemory, AbstractMemory, array->memory);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:529:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  529 |     Data_Get_Struct(rbField, StructField, array->field);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:530:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  530 |     Data_Get_Struct(array->field->rbType, ArrayType, array->arrayType);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:531:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  531 |     Data_Get_Struct(array->arrayType->rbComponentType, Type, array->componentType);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_size’:
+Struct.c:553:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  553 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_aref’:
+Struct.c:578:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  578 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_aset’:
+Struct.c:614:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  614 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:636:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  636 |         Data_Get_Struct(rbValue, Struct, s);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c:644:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  644 |         Data_Get_Struct(array->field->rbType, ArrayType, arrayType);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_each’:
+Struct.c:664:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  664 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_to_a’:
+Struct.c:685:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  685 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_to_s’:
+Struct.c:708:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  708 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Struct.c: In function ‘inline_array_to_ptr’:
+Struct.c:731:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  731 |     Data_Get_Struct(self, InlineArray, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling StructByValue.c
+StructByValue.c: In function ‘sbv_initialize’:
+StructByValue.c:88:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   88 |     Data_Get_Struct(rbLayout, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from StructByValue.c:38:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructByValue.c:89:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   89 |     Data_Get_Struct(self, StructByValue, sbv);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructByValue.c: In function ‘sbv_layout’:
+StructByValue.c:119:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  119 |     Data_Get_Struct(self, StructByValue, sbv);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructByValue.c: In function ‘sbv_struct_class’:
+StructByValue.c:128:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  128 |     Data_Get_Struct(self, StructByValue, sbv);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling StructLayout.c
+StructLayout.c: In function ‘struct_field_initialize’:
+StructLayout.c:101:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  101 |     Data_Get_Struct(self, StructField, field);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from StructLayout.c:38:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c:120:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  120 |     Data_Get_Struct(field->rbType, Type, field->type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_offset’:
+StructLayout.c:150:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  150 |     Data_Get_Struct(self, StructField, field);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_size’:
+StructLayout.c:163:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  163 |     Data_Get_Struct(self, StructField, field);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_alignment’:
+StructLayout.c:176:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  176 |     Data_Get_Struct(self, StructField, field);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_type’:
+StructLayout.c:189:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  189 |     Data_Get_Struct(self, StructField, field);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_name’:
+StructLayout.c:203:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  203 |     Data_Get_Struct(self, StructField, field);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_get’:
+StructLayout.c:218:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  218 |     Data_Get_Struct(self, StructField, f);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_field_put’:
+StructLayout.c:239:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  239 |     Data_Get_Struct(self, StructField, f);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘function_field_get’:
+StructLayout.c:261:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  261 |     Data_Get_Struct(self, StructField, f);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘function_field_put’:
+StructLayout.c:281:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  281 |     Data_Get_Struct(self, StructField, f);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘array_field_get’:
+StructLayout.c:316:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  316 |     Data_Get_Struct(self, StructField, f);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c:317:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  317 |     Data_Get_Struct(f->rbType, ArrayType, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘array_field_put’:
+StructLayout.c:340:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  340 |     Data_Get_Struct(self, StructField, f);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c:341:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  341 |     Data_Get_Struct(f->rbType, ArrayType, array);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_layout_initialize’:
+StructLayout.c:446:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  446 |     Data_Get_Struct(self, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c:473:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  473 |         Data_Get_Struct(rbField, StructField, field);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_layout_union_bang’:
+StructLayout.c:518:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  518 |     Data_Get_Struct(self, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_layout_aref’:
+StructLayout.c:548:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  548 |     Data_Get_Struct(self, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_layout_fields’:
+StructLayout.c:563:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  563 |     Data_Get_Struct(self, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_layout_members’:
+StructLayout.c:578:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  578 |     Data_Get_Struct(self, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+StructLayout.c: In function ‘struct_layout_to_a’:
+StructLayout.c:593:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  593 |     Data_Get_Struct(self, StructLayout, layout);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Thread.c
+compiling Type.c
+Type.c: In function ‘type_initialize’:
+Type.c:81:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   81 |     Data_Get_Struct(self, Type, type);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Type.c:35:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Type.c:86:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+   86 |         Data_Get_Struct(value, Type, other);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Type.c: In function ‘type_size’:
+Type.c:106:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  106 |     Data_Get_Struct(self, Type, type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Type.c: In function ‘type_alignment’:
+Type.c:121:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  121 |     Data_Get_Struct(self, Type, type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Type.c: In function ‘type_inspect’:
+Type.c:137:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  137 |     Data_Get_Struct(self, Type, type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Type.c: In function ‘builtin_type_inspect’:
+Type.c:178:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  178 |     Data_Get_Struct(self, BuiltinType, type);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Type.c: In function ‘rbffi_type_size’:
+Type.c:201:17: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  201 |                 Data_Get_Struct(nType, Type, type);
+      |                 ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Types.c
+Types.c: In function ‘rbffi_NativeValue_ToRuby’:
+Types.c:100:13: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  100 |             Data_Get_Struct(rbMemory, AbstractMemory, mem);
+      |             ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Types.c:32:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Variadic.c
+Variadic.c: In function ‘variadic_initialize’:
+Variadic.c:111:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  111 |     Data_Get_Struct(self, VariadicInvoker, invoker);
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/ruby.h:29,
+                 from /home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby.h:38,
+                 from Variadic.c:38:
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c:131:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  131 |     Data_Get_Struct(rbReturnType, Type, invoker->returnType);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c:145:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  145 |         Data_Get_Struct(rbType, Type, type);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c: In function ‘variadic_invoke’:
+Variadic.c:179:5: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  179 |     Data_Get_Struct(self, VariadicInvoker, invoker);
+      |     ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c:195:9: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  195 |         Data_Get_Struct(rbType, Type, paramTypes[i]);
+      |         ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c:202:17: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  202 |                 Data_Get_Struct(rbType, Type, paramTypes[i]);
+      |                 ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c:208:17: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  208 |                 Data_Get_Struct(rbType, Type, paramTypes[i]);
+      |                 ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Variadic.c:213:17: warning: ‘rb_data_object_get_warning’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  213 |                 Data_Get_Struct(rbType, Type, paramTypes[i]);
+      |                 ^~~~~~~~~~~~~~~
+/home/ezra/.rbenv/versions/3.4.2/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling ffi.c
+linking shared-object ffi_c.so
+
+current directory: /home/ezra/minimenchmuncher.github.io/vendor/bundle/ruby/3.4.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20250401-90513-3fwwkr sitelibdir\=./.gem.20250401-90513-3fwwkr install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20250401-90513-3fwwkr
+
+current directory: /home/ezra/minimenchmuncher.github.io/vendor/bundle/ruby/3.4.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20250401-90513-3fwwkr sitelibdir\=./.gem.20250401-90513-3fwwkr clean

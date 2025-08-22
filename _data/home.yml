@@ -5,35 +5,23 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
-
 project_entries:
-  - title: Project 1
+  - title: TA Model
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
-
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+    desc: My sample implementation of a Takahashi and Alexander model for private investments
     highlight: WIP
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: Efficient Region Model
+    url: https://github.com/minimenchmuncher/efficient_frontier
+    desc: Implementation of an Efficient Region model including correlation between asset classes 
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: Pyenv Pyright plugin for neovim
+    url: https://github.com/minimenchmuncher/pyenv_pyright
+    desc: Automatically detect and activate your local python version in neovim using pyenv
+
+  - title: Emacs configuration
+    url: https://github.com/minimenchmuncher/emacs.d
+    desc: My emacs configuration, saved in org mode, emphasizing development in R using ESS
 
 old_project_entries:
   - title: Soopr
@@ -54,14 +42,14 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: Ezra's homepage
+    url: https://www.landtucker.com
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/minimenchmuncher
+
+  - title: linkedin
+    url: https://linkedin.com/in/ezztucker
 
   - title: feed
     url: feed.xml
